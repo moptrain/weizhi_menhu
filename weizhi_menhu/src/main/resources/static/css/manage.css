@@ -1,0 +1,124 @@
+.right{
+    height: 970px;
+}
+.right ul{
+    overflow: hidden;
+    margin-left: 40px;
+    color: #222;
+    font-size: 22px;
+}
+.right ul li{
+    overflow: auto;
+    width: 140px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 60px;
+}
+.now{
+    border-bottom: 3px solid #5093E1;
+}
+.line01{
+    margin:auto 5%;
+    width: 90%;
+    height: 2px;
+    background: #EBEBE4;
+}
+
+.right button,#relDel{
+    color: #fff;
+    background: #5093E1;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 40px;
+    width: 80px;
+    height: 27px;
+}
+#super{
+    margin-left: 30px;
+}
+#plusWin,#del,#change{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 45%;
+    top: 250px;
+    border: 1px solid #222;
+    z-index: -1;
+    background: #fff;
+}
+.l-word{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.close{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.line02{
+    width: 100%;
+    height: 1px;
+    background-color: #222;
+    margin: 10px 0;
+}
+.row1{
+    width: 100%;
+    height: 30px;
+}
+.row1 input{
+    width: 250px;
+}
+.row1 span{
+    margin-left: 30px;
+}
+#put1{
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100px;
+    height: 32px;
+    float: left;
+    margin-left: 152px;
+    margin-top: 20px;
+}
+#put2{
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100px;
+    height: 32px;
+    float: left;
+    margin-left: 152px;
+    margin-top: 20px;
+}
+#del p{
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+#relDel{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: none;
+}
+#no{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.user{
+    width: 80%;
+    margin: 30px auto;
+}
+.red{
+    color: #FF0000;
+}
+td{
+    text-align: center;
+}
+.none{
+    display: none;
+}

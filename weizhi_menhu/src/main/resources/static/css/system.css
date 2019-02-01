@@ -1,0 +1,139 @@
+.right{
+    margin-left: 2%;
+    margin-right: 7%;
+    width: 75%;
+    height: 600px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 4px;
+  }
+.top{
+    display: flex;
+    justify-content: center;
+}
+.pag{
+    width: 470px;
+    height: 280px;
+    background: #F2F2F2;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: 1px;
+}
+img.big{
+    width: 470px;
+    height: 280px;
+}
+.group{
+    width: 140px;
+    margin-top: 45px;
+}
+.group button{
+    width: 110px;
+    height: 40px;
+    background: #5093E1;
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+span{
+    font-size: 11px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    width: 780px;
+    height: 120px;
+    background: #F2F2F2;
+}
+.box button{
+    width: 6%;
+    height: 100%;
+    background: #A8C9F0;
+    color: #fff;
+    border: none;
+}
+.slide{
+    position: relative;
+    overflow: hidden;
+    width: 88%;
+    padding:0;
+}
+.page1{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 687px;
+    height: 100%;
+}
+#pi1,#pi2,#pi3,#pi4,#pi5,#pi6,#pi7,#pi8{
+    width: 170.5px;
+    height: 96%;
+    cursor: pointer;
+    border: none;
+}
+
+.page2{
+    position: absolute;
+    left: 687px;
+    display: flex;
+    justify-content: center;
+    width: 687px;
+    height: 100%;
+}
+.slide p{
+    color: #blue;
+    font-size: 14px;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.choose{
+    margin-left: 30px;
+}
+
+#del{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 45%;
+    top: 250px;
+    border: 1px solid #222;
+    z-index: -1;
+    background: #fff;
+}
+.l-word{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.close{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.line02{
+    width: 100%;
+    height: 1px;
+    background-color: #222;
+    margin: 10px 0;
+}
+#del p{
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+#del button{
+    float: left;
+    margin-left: 68px;
+    margin-top: 20px;
+    color: #fff;
+    background: #5093E1;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100px;
+    height: 32px;
+}

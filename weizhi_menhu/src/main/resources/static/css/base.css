@@ -1,0 +1,165 @@
+html,body{
+    /*min-width:1370px;*/
+    /*overflow-x: hidden;*/
+    /*font-size:100px;*/
+    height: auto;
+}
+/*reset css*/
+/*Margin的默认样式初始化*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,span{
+    margin:0;
+    font-weight: normal;
+}
+/*padding的样式初始化*/
+ul,ol,td,th,span{
+    padding:0;
+}
+/*列表的样式初始化*/
+ul,ol,li{
+    list-style:none;
+}
+/*font-style的样式初始化*/
+em{
+    font-style：normal;
+}
+/*下划线的样式初始化*/
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+/*table的样式初始化*/
+table{
+    border-collapse:collapse;
+}
+/*BFC的方法*/
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*public css*/
+/*header css*/
+/*nav css*/
+/*search css*/
+/* content css*/
+/*main css*/
+/*sideBar css*/
+/*footer css*/
+a:hover{
+  color: rgb(94,105,109);
+  text-decoration: none;
+}
+a:visited{
+    color:rgb(94, 105, 109);
+}
+a:active {
+    color: rgba(102, 102, 102, 1);
+}
+button,li{
+    cursor: pointer;
+}
+strong,b{
+font-weight:normal;
+}
+button{
+  border: none;
+}
+
+/*************** 后台  *******************/
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #5093E1;
+    display: flex;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header li.fir{
+    margin-left: 10%;
+    display: inline;
+}
+header img{
+    height: 60px;
+    width: 60px;
+}
+header li.sec{
+    margin-left: 10%;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    display: inline;
+}
+header li.thr{
+    margin-left: 50%;
+    font-size: 22px;
+    color: #fff;
+    display: inline;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1000px;
+    background: #E6E6E6;
+}
+.left{
+    width: 20%;
+    height: 500px;
+    background: #fff;
+    margin-left: 7%;
+    margin-top: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.left ul{
+    margin-top: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+.left ul li{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #595959;
+}
+.left li.top{
+    font-size: 22px;
+    color: #222;
+}
+.left .active{
+    background-color: #70A5E7;
+    color: #fff;
+}
+.left li:hover{
+    background-color: #70A5E7;
+    color: #fff;
+    transition: .6s;
+}
+.left li:hover a{
+    color: #fff;
+}
+.right{
+    margin-left: 2%;
+    margin-right: 7%;
+    width: 85%;
+    height: 600px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 4px;
+  }
+.top{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    resize: none;
+}
